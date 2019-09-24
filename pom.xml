@@ -27,7 +27,7 @@
     <hibernateVersion>5.2.17.Final</hibernateVersion>
     <mysqlVersion>8.0.17</mysqlVersion>
     <c3p0Version>0.9.5.3</c3p0Version>
-    <jacksonVersion>2.9.9.2</jacksonVersion>
+    <jacksonVersion>2.9.10</jacksonVersion>
   </properties>
 
   <dependencies>
