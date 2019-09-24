@@ -68,7 +68,7 @@ layui.define(['element', 'form', "layer"], function(exports) {
 
     /*弹出框 */
     $('.showNotice').on('click', function(event) {
-        /*layer.tab({
+        layer.tab({
             area: ['600px', '300px'],
             tab: [{
                 title: 'TAB1',
@@ -80,29 +80,10 @@ layui.define(['element', 'form', "layer"], function(exports) {
                 title: 'TAB3',
                 content: '内容3'
             }]
-        });*/
-
-        layer.open({
-            type: 2
-            ,title: false //不显示标题栏false
-            ,closeBtn: 2 //关闭按钮
-            ,area: ['600px', '300px']
-            ,shade: 0.3
-            ,id: 'LAY_layuipro' //设定一个id，防止重复弹出
-            ,btn: ['火速围观', '残忍拒绝']
-            ,btnAlign: 'c'
-            ,moveType: 0//拖拽模式，0或者1
-            ,content: 'shshshshsh'
-            ,success: function(layero){
-                var btn = layero.find('.layui-layer-btn');
-                btn.find('.layui-layer-btn0').attr({
-                    href: 'http://www.layui.com/'
-                    ,target: '_blank'
-                });
-            }
-
-
         });
+
+
+
 
 
     });
